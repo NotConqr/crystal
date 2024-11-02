@@ -20,8 +20,8 @@ void wait(int sec) {
 }
 
 int main() {
-  Header("Crystal - CY.0.2")
+  Header("Crystal - CY.0.3")
   wait(5);
-  std::cout << "Crystals - CY.0.2" << std::endl;
+  std::cout << "Crystals - CY.0.3" << std::endl;
   wait(5);
 }
