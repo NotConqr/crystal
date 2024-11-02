@@ -5,10 +5,13 @@
 void wait(int sec);
 
 void wait(int sec) {
+  system("color 6");
   std::this_thread::sleep_for(std::chrono::seconds(sec));
+  system("color a");
 }
 
 int main() {
-  std::cout << "crystal sever not avalible" << std::endl;
-  wait(20);
+  wait(5);
+  std::cout << "Crystals - CY.0.2" << std::endl;
+  wait(5);
 }
